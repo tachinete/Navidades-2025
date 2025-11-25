@@ -21,20 +21,20 @@
             margin-bottom: 12px;
             border-radius: 8px;
         }
-        .item-card h2 {
-            font-size: 1em;
-            margin: 0 0 8px 0;
-        }
-        .item-card .price {
-            font-weight: bold;
-            color: #007100;
-            font-size: 1.25em;
-        }
+        .item-card h2 { font-size: 1em; margin: 0 0 8px 0; }
+        .item-card .price { font-weight: bold; color: #007100; font-size: 1.25em; }
         .item-card a {
-            display: block;
-            margin-top: 10px;
-            color: #0070f3;
-            text-decoration: none;
+            display: block; margin-top: 10px; color: #0070f3; text-decoration: none;
+        }
+        .fields-container {
+            display: flex; align-items: center; justify-content: center; gap: 8px; margin-top: 10px;
+        }
+        .fields-container input[type="text"] {
+            width: 100px; padding: 5px; border-radius: 4px; border: 1px solid #ccc;
+        }
+        .fields-container label {
+            margin-left: 3px;
+            font-size: 0.97em;
         }
     </style>
 </head>
@@ -45,73 +45,33 @@
             <h2>LEGO Creator 3 en 1 Lanzadera Espacial</h2>
             <div class="price">9,99 €</div>
             <a href="https://www.amazon.es/LEGO-31134-Lanzadera-Astronauta-Construcción/dp/B0BBRYHTPS" target="_blank">Ver en Amazon</a>
+            <div class="fields-container">
+                <input type="text" placeholder="Comentario o cantidad">
+                <label><input type="checkbox"> Seleccionado</label>
+            </div>
         </div>
         <div class="item-card">
             <img src="https://m.media-amazon.com/images/I/81ZIi4zuNaL._AC_SL1500_.jpg" alt="LEGO Creator 3 en 1 Camión Plataforma con Helicóptero">
             <h2>LEGO Creator 3 en 1 Camión Plataforma con Helicóptero</h2>
             <div class="price">19,99 €</div>
             <a href="https://www.amazon.es/LEGO-Plataforma-Helicóptero-Convertible-Vehículos/dp/B0CFVYPKGB/" target="_blank">Ver en Amazon</a>
+            <div class="fields-container">
+                <input type="text" placeholder="Comentario o cantidad">
+                <label><input type="checkbox"> Seleccionado</label>
+            </div>
         </div>
         <div class="item-card">
             <img src="https://mkz.tkzstatic.com/images/productos/maletin-de-veterinario_28896_full.webp" alt="Maletín de Veterinario">
             <h2>Maletín de Veterinario Janod</h2>
             <div class="price">29,95 €</div>
             <a href="https://www.minikidz.es/maletin-de-veterinario" target="_blank">Ver en Minikidz</a>
+            <div class="fields-container">
+                <input type="text" placeholder="Comentario o cantidad">
+                <label><input type="checkbox"> Seleccionado</label>
+            </div>
         </div>
         <div class="item-card">
             <img src="https://mkz.tkzstatic.com/images/productos/colegas-de-barrio_28812_full.webp" alt="Colegas del Barrio de Lúdilo">
             <h2>Colegas del Barrio Lúdilo</h2>
             <div class="price">11,95 €</div>
-            <a href="https://www.minikidz.es/colegas-de-barrio" target="_blank">Ver en Minikidz</a>
-        </div>
-        <div class="item-card">
-            <img src="https://mkz.tkzstatic.com/images/productos/kidydraw-mini-tableta-de-dibujo-galaxia_35579_full.webp" alt="Kidydraw Mini Tableta de Dibujo Galaxia">
-            <h2>Kidydraw Mini Tableta de Dibujo Galaxia</h2>
-            <div class="price">19,95 €</div>
-            <a href="https://www.minikidz.es/kidydraw-mini-tableta-de-dibujo-galaxia" target="_blank">Ver en Minikidz</a>
-        </div>
-        <div class="item-card">
-            <img src="https://m.media-amazon.com/images/I/71wZy32XD3L._AC_SL1500_.jpg" alt="BAYMI Aspiradora para Niños 3 en 1">
-            <h2>BAYMI Aspiradora para Niños 3 en 1</h2>
-            <div class="price">36,99 €</div>
-            <a href="https://www.amazon.es/BAYMI-Aspiradora-Ni%C3%B1os-Juguete-Succi%C3%B3n/dp/B0F998S7V1/" target="_blank">Ver en Amazon</a>
-        </div>
-        <div class="item-card">
-            <img src="https://m.media-amazon.com/images/I/816Pd9F10mL._AC_SL1500_.jpg" alt="Growithu Kit Caza de bichos para niños">
-            <h2>Growithu Kit Caza de bichos para niños</h2>
-            <div class="price">15,99 €</div>
-            <a href="https://www.amazon.es/Growithu-Caza-bichos-para-ni%C3%B1os/dp/B0F1Y1V134/" target="_blank">Ver en Amazon</a>
-        </div>
-        <div class="item-card">
-            <img src="https://m.media-amazon.com/images/I/61JF73nBzvL._AC_SL1500_.jpg" alt="Rubies Disfraz Hulk Preschool">
-            <h2>Rubies Disfraz Hulk Preschool</h2>
-            <div class="price">25,49 €</div>
-            <a href="https://www.amazon.es/Rubies-Disfraz-Preschool-Amazing-702737-S/dp/B08VFVD8B9/" target="_blank">Ver en Amazon</a>
-        </div>
-        <div class="item-card">
-            <img src="https://m.media-amazon.com/images/I/81LfTXXnKjL._AC_SL1500_.jpg" alt="LEGO Duplo Mi Ciudad Coches de Carreras y Pilotos F1">
-            <h2>LEGO Duplo Mi Ciudad Coches de Carreras y Pilotos F1</h2>
-            <div class="price">38,99 €</div>
-            <a href="https://www.amazon.es/LEGO-Carreras-Pilotos-Sem%C3%A1foro-10445/dp/B0DHSC9G69/" target="_blank">Ver en Amazon</a>
-        </div>
-        <div class="item-card">
-            <img src="https://i0.wp.com/fimau.es/wp-content/uploads/2024/10/27022024130108.nk-file-2788-md-thumbnail-2000x2000-1.webp?fit=800%2C800&ssl=1" alt="Dado Colores Roll & Play">
-            <h2>Dado Colores Roll & Play</h2>
-            <div class="price">Consultar web</div>
-            <a href="https://fimau.es/producto/dado-colores-roll-play/" target="_blank">Ver en Fimau</a>
-        </div>
-        <div class="item-card">
-            <img src="https://mkz.tkzstatic.com/images/productos/escuela-de-monstruos-1-la-mascota-mas-grandota_23385_full.webp" alt="Escuela de Monstruos 1: La mascota más grandota">
-            <h2>Escuela de Monstruos 1: La mascota más grandota</h2>
-            <div class="price">Consultar web</div>
-            <a href="https://www.minikidz.es/escuela-de-monstruos-1-la-mascota-mas-grandota" target="_blank">Ver en Minikidz</a>
-        </div>
-        <div class="item-card">
-            <img src="https://m.media-amazon.com/images/I/61yHrh4muYL._SL1033_.jpg" alt="Mi nombre es Stilton, Geronimo Stilton">
-            <h2>Mi nombre es Stilton, Geronimo Stilton</h2>
-            <div class="price">9,45 €</div>
-            <a href="https://www.amazon.es/Mi-nombre-Stilton-Geronimo/dp/840814975X/" target="_blank">Ver en Amazon</a>
-        </div>
-    </div>
-</body>
-</html>
+            <a href="https://www.minikidz.es/colegas-de-barrio" target="_blank">Ver en Minik
